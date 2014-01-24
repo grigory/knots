@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<knot>
+	<points>
+		<point id="0" x="139" y="250">
+		</point>
+		<point id="1" x="317" y="12">
+		</point>
+		<point id="2" x="293" y="245">
+		</point>
+		<point id="3" x="206" y="42">
+		</point>
+		<point id="4" x="371" y="152">
+		</point>
+	</points>
+	<edges>
+		<edge id="0" source="0" target="1">
+		</edge>
+		<edge id="1" source="1" target="2">
+		</edge>
+		<edge id="2" source="2" target="3">
+		</edge>
+		<edge id="3" source="3" target="4">
+		</edge>
+		<edge id="4" source="4" target="0">
+		</edge>
+	</edges>
+	<intersections>
+		<intersection lower="2" upper="0">
+		</intersection>
+		<intersection lower="3" upper="0">
+		</intersection>
+		<intersection lower="4" upper="2">
+		</intersection>
+		<intersection lower="3" upper="1">
+		</intersection>
+		<intersection lower="4" upper="1">
+		</intersection>
+	</intersections>
+</knot>

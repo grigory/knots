@@ -1,0 +1,1 @@
+for %%i in (*.xml) do ren %%i *.pkd

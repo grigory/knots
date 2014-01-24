@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<knot>
+	<points>
+		<extra>
+		</extra>
+		<point x="0" y="0"/>
+		<point id="text" x="100" y="100"/>
+		<point id="0" y="0"/>
+		<point id="1" x="text" y="100"/>
+		<point id="2" x="-20" />		
+		<point id="0" x="0" y="text"/>
+		<point id="0" x="0" y="0"/>
+		<point id="0" x="-20" y="3"/>		
+	</points>
+	<edges>
+	</edges>
+	<intersections/>
+</knot>

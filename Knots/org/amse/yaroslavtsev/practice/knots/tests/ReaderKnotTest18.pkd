@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<knot>
+	<extra/>
+	<points>
+		<extrapoint/>
+		<point id="0" x="141" y="282"/>
+		<point id="1" x="314" y="143"/>
+		<point id="2" x="139" y="112"/>
+		<point id="3" x="354" y="309"/>
+	</points>
+	<more/>
+	<edges>
+		<extraedge/>
+		<edge id="0" source="0" target="1"/>
+		<edge id="1" source="1" target="2"/>
+		<edge id="2" source="2" target="3"/>
+		<edge id="3" source="3" target="0"/>
+	</edges>
+	<text/>
+	<text/>
+	<intersections>
+		<extraintersection/>
+		<intersection upper="0" lower="2"/>
+		<intersection lower="2"/>
+		<intersection upper="0"/>
+		<intersection upper="text" lower="2"/>
+		<intersection upper="0" lower="text"/>
+		<intersection upper="5" lower="7"/>
+		<intersection upper="0" lower="-1"/>
+	</intersections>
+</knot> 	

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<knot>
+    <points>
+        <point id="0" x="19" y="133"/>
+        <point id="1" x="120" y="38"/>
+        <point id="2" x="293" y="36"/>
+        <point id="3" x="379" y="130"/>
+        <point id="4" x="40" y="238"/>
+        <point id="5" x="120" y="300"/>
+        <point id="6" x="272" y="305"/>
+        <point id="7" x="349" y="236"/>
+        <point id="8" x="195" y="118"/>
+        <point id="9" x="191" y="257"/>
+        <point id="10" x="179" y="178"/>
+        <point id="11" x="211" y="178"/>
+    </points>
+    <edges>
+        <edge id="0" source="8" target="4"/>
+        <edge id="1" source="7" target="8"/>
+        <edge id="2" source="0" target="9"/>
+        <edge id="3" source="9" target="3"/>
+        <edge id="4" source="1" target="0"/>
+        <edge id="5" source="10" target="1"/>
+        <edge id="6" source="5" target="10"/>
+        <edge id="7" source="2" target="11"/>
+        <edge id="8" source="11" target="6"/>
+        <edge id="9" source="4" target="5"/>
+        <edge id="10" source="3" target="2"/>
+        <edge id="11" source="6" target="7"/>
+    </edges>
+    <intersections>
+        <intersection lower="2" upper="0"/>
+        <intersection lower="0" upper="5"/>
+        <intersection lower="3" upper="1"/>
+        <intersection lower="1" upper="7"/>
+        <intersection lower="6" upper="2"/>
+        <intersection lower="8" upper="3"/>
+    </intersections>
+</knot>

@@ -1,0 +1,1 @@
+java junit.textui.TestRunner org.amse.yaroslavtsev.practice.knots.tests.AllTests
